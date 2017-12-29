@@ -7,10 +7,10 @@ export default function (designWidth, rem2px) {
   var defaultFontSize = parseFloat(window.getComputedStyle(d, null).getPropertyValue('width'));
   div.remove();
   var fontSize = window.innerWidth / designWidth * rem2px / defaultFontSize * 100 + '%';
-  document.documentElement.style.fontSize = fonsSize;
+  document.documentElement.style.fontSize = fontSize;
   var st = document.createElement('style');
-  var portrait = "@media screen and (min-width: "+window.innerWidth+"px) {html{font-size:"+ fonsSize +";}}";
-  var landscape = "@media screen and (min-width: "+window.innerHeight+"px) {html{font-size:"+ fonsSize +";}}"
+  var portrait = "@media screen and (min-width: "+window.innerWidth+"px) {html{font-size:"+ fontSize +";}}";
+  var landscape = "@media screen and (min-width: "+window.innerHeight+"px) {html{font-size:"+ fontSize +";}}"
   st.innerHTML = portrait + landscape;
   head.appendChild(st);
   return defaultFontSize
