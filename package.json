@@ -1,6 +1,6 @@
 {
   "name": "rem-adapt",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A plugin to resize root element's fonsSize",
   "main": "lib/rem-adapt.js",
   "scripts": {
