@@ -1,0 +1,31 @@
+{
+  "name": "rem-adapt",
+  "version": "1.0.1",
+  "description": "A plugin to resize root element's fonsSize",
+  "main": "lib/rem-adapt.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tofuxb/rem-adapt.git"
+  },
+  "keywords": [
+    "rem"
+  ],
+  "author": "tofuxb@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tofuxb/rem-adapt/issues"
+  },
+  "homepage": "https://github.com/tofuxb/rem-adapt#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "uglifyjs-webpack-plugin": "^1.1.5",
+    "webpack": "^3.10.0"
+  }
+}
